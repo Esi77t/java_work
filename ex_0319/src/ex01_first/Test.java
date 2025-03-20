@@ -1,7 +1,5 @@
 package ex01_first;
 
-import java.util.Scanner;
-
 public class Test {
 	// main 함수
 	// 파일을 실행하면 main 함수 안에 있는 코드가 실행
