@@ -19,16 +19,29 @@ public class EX01_scanner {
 		// System.out.println(a + b);
 		
 		// 나이 입력받기
+		// Scanner sc = new Scanner(System.in);
+		// System.out.println("나이 입력 : ");
+		// int age = sc.nextInt();
+		// System.out.println("이름 입력 : ");
+		// String name = sc.next(); // 띄어쓰기를 해버리면 종료
+		// sc.nextLine(); // 엔터 값을 대신 가져감
+		// System.out.println("주소 입력 : ");
+		// String address = sc.nextLine(); // 엔터를 하면 종료
+		// System.out.printf("제 이름은 %s 입니다.\n", name);
+		// System.out.printf("제 나이는 %d세 입니다.\n", age);
+		// System.out.printf("제 주소는 %s 입니다.\n", address);
+		
 		Scanner sc = new Scanner(System.in);
-		System.out.println("나이 입력 : ");
-		int age = sc.nextInt();
-		System.out.println("이름 입력 : ");
-		String name = sc.next(); // 띄어쓰기를 해버리면 종료
-		sc.nextLine(); // 엔터 값을 대신 가져감
-		System.out.println("주소 입력 : ");
-		String address = sc.nextLine(); // 엔터를 하면 종료
-		System.out.printf("제 이름은 %s 입니다.\n", name);
-		System.out.printf("제 나이는 %d세 입니다.\n", age);
-		System.out.printf("제 주소는 %s 입니다.\n", address);
+		System.out.println("국어 점수 : ");
+		int kor = sc.nextInt();
+		System.out.println("영어 점수 : ");
+		int eng = sc.nextInt();
+		System.out.println("수학 점수 : ");
+		int math = sc.nextInt();
+		int sum;
+		double avg;
+		sum = kor + eng + math;
+		avg = (double)(sum / 3);
+		System.out.println(avg);
 	}
 }

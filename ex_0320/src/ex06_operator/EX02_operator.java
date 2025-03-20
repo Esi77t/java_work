@@ -103,5 +103,14 @@ public class EX02_operator {
 		int i2 = 15;
 		int res4 = ++i1 >= i2 ? 1 : 0;
 		System.out.println(res4);
+		
+		
+		int num1 = 10;
+		int num2 = 12;
+		System.out.println(++num1 >= b || 2 + 7 <= b && 13 - b >= 0 && (a += b) - (a % b) > 10);
+
+		
+		
+		
 	}
 }
