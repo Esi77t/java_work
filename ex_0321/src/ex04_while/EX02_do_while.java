@@ -33,27 +33,25 @@ public class EX02_do_while {
 		// 비밀번호는 9486
 		Scanner sc = new Scanner(System.in);
 		int password;
-		boolean passwordC = true;
+		boolean passwordC = false;
 		do {
 			System.out.print("비밀번호를 입력하세요 : ");
 			password = sc.nextInt();
 			if(password == 9486) {
-				passwordC = false;
+				passwordC = true;
 				break;
 			} else {
 				System.out.println("비밀번호가 틀렸습니다. 다시 입력하세요.");
 				continue;
 			}
-		} while(passwordC);
+		} while(!passwordC);
 		System.out.println("접속 성공!");
 		
 		// 학생의 국어, 영어, 수학 점수를 입력받는다
 		// 단, 각 과목은 40점 이상이어야 하며
 		// 40점 미만이면 전체 과목 점수를 다시 입력받아야 한다.
-		int kor;
-		int eng;
-		int math;
-		boolean scoreCorrect = true;
+		int kor, eng, math;
+		boolean scoreCorrect = false;
 		do {
 			System.out.print("국어 점수를 입력하세요 : ");
 			kor = sc.nextInt();
@@ -62,13 +60,15 @@ public class EX02_do_while {
 			System.out.print("수학 점수를 입력하세요 : ");
 			math = sc.nextInt();
 			if(kor >= 40 && eng >= 40 && math >= 40) {
-				scoreCorrect = false;
+				scoreCorrect = true;
 				break;
 			} else {
 				System.out.println("불합격입니다. 다시 입력하세요.");
 				continue;
 			}
-		} while(scoreCorrect);
+		} while(!scoreCorrect);
 		System.out.println("합격입니다!");
+		
+		sc.close();
 	}
 }
