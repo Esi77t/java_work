@@ -1,7 +1,7 @@
-INDEX VERSION 1.134+D:\full_stack_osh\3. JAVA\work\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-4273490593.index
-2890506694.index
-1864767594.index
-2311027255.index
+INDEX VERSION 1.134+D:\full_stack_osh\3. JAVA\java_work\.metadata\.plugins\org.eclipse.jdt.core
 4191522488.index
+2890506694.index
+471930887.index
+4273490593.index
+1865797976.index
+2311027255.index
