@@ -7,4 +7,6 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="ex05_inheritance.Parent"/>
     <fullyQualifiedTypeName name="ex06_inheritance.SchoolBus"/>
+    <fullyQualifiedTypeName name="ex02_class_casting.DeskCalendar"/>
+    <fullyQualifiedTypeName name="ex02_class_casting.FourWheelBike"/>
 </qualifiedTypeNameHistroy>
