@@ -1,12 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="ex05_inheritance.Parent"/>
     <fullyQualifiedTypeName name="ex06_inheritance.SchoolBus"/>
     <fullyQualifiedTypeName name="ex02_class_casting.DeskCalendar"/>
     <fullyQualifiedTypeName name="ex02_class_casting.FourWheelBike"/>
+    <fullyQualifiedTypeName name="ex01_innerClass.Calculator"/>
+    <fullyQualifiedTypeName name="ex01_innerClass.Calculator.Calc"/>
+    <fullyQualifiedTypeName name="ex01_innerClass.Car.Engine"/>
+    <fullyQualifiedTypeName name="ex01_innerClass.PrintOut.Out"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="ex01_innerClass.PermitExample.InClass"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="ex01_innerClass.AnonymousExample"/>
+    <fullyQualifiedTypeName name="ex01_innerClass.AnonymousExample.Button"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="ex03_try_catch.EX05_throws"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="ex03_try_catch.InputErrorException"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
