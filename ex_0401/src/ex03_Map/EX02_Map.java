@@ -27,12 +27,14 @@ public class EX02_Map {
 		String id = sc.next();
 		System.out.print("pw : ");
 		int pwd = sc.nextInt();
-		if(map.containsKey(id) && map.containsValue(pwd)) {
-			System.out.println("로그인 성공!");
-		} else if(!map.containsKey(id)) {
-			System.out.println("아이디가 존재하지 않습니다.");
-		} else if(!map.containsValue(pwd)) {
-			System.out.println("비밀번호 불일치");
+		if(!map.containsKey(id)) {
+			System.out.println("아이디가 없습니다.");
+		} else {
+			if(map.get(id) != pwd) {
+				System.out.println("비밀번호가 틀렸습니다.");
+			} else {
+				System.out.println("로그인 성공!");
+			}
 		}
 	}
 }

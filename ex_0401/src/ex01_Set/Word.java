@@ -8,7 +8,7 @@ public class Word {
 	public static void main(String[] args) {
 		// 사용자가 입력한 문장에서 단어가 중복되었는지 검사하기
 		// 예시
-		// 
+		// I love Java and I love coding
 		// 중복단어 있음
 		Scanner sc = new Scanner(System.in);
 		
