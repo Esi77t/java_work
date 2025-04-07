@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="ex05_Generic.DataList"/>
-    <fullyQualifiedTypeName name="ex05_Generic.GenEX"/>
-    <fullyQualifiedTypeName name="ex05_Generic.FruitBox"/>
-    <fullyQualifiedTypeName name="ex05_Generic.Fruit"/>
     <fullyQualifiedTypeName name="ex05_Generic.Apple"/>
     <fullyQualifiedTypeName name="ex05_Generic.Banana"/>
     <fullyQualifiedTypeName name="ex05_Generic.FruitBox2"/>
@@ -56,8 +52,12 @@
     <fullyQualifiedTypeName name="ex01_Stream.Student"/>
     <fullyQualifiedTypeName name="java.util.Optional"/>
     <fullyQualifiedTypeName name="ex02_Thread.ThreadTest"/>
-    <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="ex02_Thread.RunnableTest"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="ex02_Thread.ThreadName"/>
+    <fullyQualifiedTypeName name="ex01_ThreadMethod.SleepThread"/>
+    <fullyQualifiedTypeName name="ex01_ThreadMethod.JoinExample"/>
+    <fullyQualifiedTypeName name="ex01_ThreadMethod.YieldExample"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="ex02_Synchronized.SynchronizedEX"/>
 </qualifiedTypeNameHistroy>
