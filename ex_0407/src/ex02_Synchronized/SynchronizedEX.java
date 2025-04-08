@@ -8,6 +8,9 @@ public class SynchronizedEX implements Runnable {
 		// SynchronizedEX.class : SynchronizedEX 클래스 자체를 의미
 		// SynchronizedEX 클래스에 락을 걸겠다
 		// 하나의 쓰레드가 이미 점유중이라면 다른 쓰레드가 사용할 수 없다.
+		
+		// synchronized 블록
+		// 필요한 부분만 선택적으로 동기화 할 수 있어 조금 더 성능을 최적화 할 수 있다
 		synchronized (SynchronizedEX.class) {
 			for(int i = 0; i < 10; i++) {
 				try {
