@@ -7,7 +7,7 @@ public class EX01_FileInputStream {
 	public static void main(String[] args) {
 		String path = "D:\\full_stack_osh\\3. JAVA\\test.txt";
 		
-		File f = new File(path);
+		File f = new File(path);	
 		FileInputStream fis = null;
 		if(f.exists()) {
 			// exists()로 경로를 탐색을 미리 했지만
