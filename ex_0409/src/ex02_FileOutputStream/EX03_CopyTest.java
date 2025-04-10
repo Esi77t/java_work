@@ -11,7 +11,7 @@ public class EX03_CopyTest {
 		try {
 			fis = new FileInputStream("D:\\full_stack_osh\\3. JAVA\\image.jpg");
 			fos = new FileOutputStream("D:\\full_stack_osh\\3. JAVA\\image_copy.jpg");
-			byte[] buffer = new byte[512];
+			byte[] buffer = new byte[1024];
 			// 현재 시간을 m/s 단위로 나타냄
 			long start = System.currentTimeMillis();
 			System.out.println("이미지 읽기 시작");

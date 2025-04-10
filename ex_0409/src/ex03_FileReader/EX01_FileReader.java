@@ -9,7 +9,7 @@ public class EX01_FileReader {
 			fr = new FileReader("D:\\full_stack_osh\\3. JAVA\\test.txt");
 			
 			int code = 0;
-			
+			// 파일을 읽다가 더이상 읽을게 없으면 -1이 나온다
 			while(((code) = fr.read()) != -1) {
 				System.out.print((char)code);
 			}
