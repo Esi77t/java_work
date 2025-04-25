@@ -1,13 +1,16 @@
 package EXAM04;
 
+import java.util.Arrays;
+
 public class Exam04Main {
 	public static void main(String[] args) {
 		int[] i_arr = {1,1,1,2,2,2,2,3,3,3,4,4,4,4,4,5,5,5,5,5};
 		
-		int[] rs = Exam04.removeDuplicates(i_arr);
+		Exam04 e= new Exam04();
 		
-		for(int i = 0; i < rs.length; i++) {
-			System.out.print(rs[i]);
-		}
+		int[] rs = e.removeDuplicates(i_arr);
+		
+		System.out.println(Arrays.toString(rs));
 	}
 }
+

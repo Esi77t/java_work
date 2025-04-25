@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.io.FileReader"/>
-    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
-    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
-    <fullyQualifiedTypeName name="java.io.OutputStreamWriter"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
     <fullyQualifiedTypeName name="ex05_enum.Transportation"/>
@@ -37,7 +33,6 @@
     <fullyQualifiedTypeName name="ex02_DB.DBUtil"/>
     <fullyQualifiedTypeName name="ex02_DB.Person"/>
     <fullyQualifiedTypeName name="ex02_DB.PersonMethod"/>
-    <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="ex01_Reflection.PhoneTest"/>
     <fullyQualifiedTypeName name="ex01_Reflection.Phone"/>
     <fullyQualifiedTypeName name="oracle.net.aso.p"/>
@@ -46,18 +41,23 @@
     <fullyQualifiedTypeName name="java.util.function.Consumer"/>
     <fullyQualifiedTypeName name="java.util.stream.Stream"/>
     <fullyQualifiedTypeName name="exam01.Student"/>
-    <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="exam01.exam17_Student"/>
     <fullyQualifiedTypeName name="EXAM06.StudentMain"/>
     <fullyQualifiedTypeName name="EXAM04.Exam04"/>
     <fullyQualifiedTypeName name="EXAM06.Student"/>
     <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="EXAM07.Word"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.lang.Iterable"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="EXAM10.Box"/>
+    <fullyQualifiedTypeName name="EXAM09.SumofDigits"/>
 </qualifiedTypeNameHistroy>

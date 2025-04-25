@@ -11,7 +11,5 @@ public class WordMain {
 		for(Map.Entry<String, Integer> entry : res.entrySet()) {
 			System.out.println(entry.getKey() +  " : " + entry.getValue());
 		}
-		
-		
 	}
 }

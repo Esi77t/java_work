@@ -3,23 +3,17 @@ package EXAM06;
 public class Student {
 	private String name;
 	private int age;
-	private int stdNumber;
+	private int id;
 	
-	public String Std(String name) {
-		return this.name = name;
-	}
-	
-	public int StdAge(int age) {
-		return this.age = age;
-	}
-	
-	public int StdNum(int stdNumber) {
-		return this.stdNumber = stdNumber;
+	public Student(String name, int age, int id) {
+		this.name = name;
+		this.age = age;
+		this.id = id;
 	}
 	
 	public void StudentInfo() {
 		System.out.println("이름 : " + name);
 		System.out.println("나이 : " + age);
-		System.out.println("학번 : " + stdNumber);
+		System.out.println("학번 : " + id);
 	}
 }
